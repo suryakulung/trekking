@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding-bottom: 100px;
+}
+/* =============== Root Start =============== */
+ul {
+    list-style: none;
+    margin: 0;
+}
+.btn-danger{
+    background: tomato;
+}
+a {
+    text-decoration: none;
+    color: #1C2833;
+}
+.h-400{
+    height: 400px;
+}
+.bg-one {
+    background: #1F618D;
+}
+.btn{
+    border: none;
+}
+.text-sm {
+    font-size: small;
+}
+img:hover{
+    cursor: pointer;
+}
+.bg-hover:hover {
+    background: chocolate;
+    cursor: pointer;
+}
+.text-auto{
+    font-family: auto sans-serif;
+}
+.bg-gr1{
+    background: linear-gradient(80deg,#E74C3C,#45B39D);
+}
+.hover:hover{
+    background: #138D75;
+    transition: 0.3s;
+}
+/* ===============  Root End  =============== */
+.dropdown-menu a:hover{
+    color: chocolate !important;
+}
+nav ul li:hover,nav ul li a:hover{
+    color: chocolate;
+    background: #fff;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    top: 100%;
+    left: 0;
+}
+/* ===============  Menu End ============== */
+.display{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.display-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.display-content p{
+    text-shadow: 0 0 5px #000;
+}
+.dropdown:hover .dropdown-toggle{
+    transform: translate(120deg);
+}
+/* ===================== Display End ============= */
+.title h1{
+    font-family: auto;
+}
+.line1,.line2{
+    height: 5px;
+    width: 100px;
+    background: #000;
+}
+.line1{
+    background: linear-gradient(120deg,#000,#3498DB);
+}
+.line2{
+    background: linear-gradient(220deg,#000,#3498DB);
+}
+
+.img{
+    object-fit: cover;
+    height :100%;
+    width: 100%;
+}
+
+
+
+/* ===================== Activities End ============= */
+.slick-next:before,.slick-prev:before{
+    font-size: 30px !important;
+    color: red !important;
+}
+.slick-next{
+    right: 3% !important;
+}
+.slick-prev{
+    left: 1% !important;
+    z-index: 1;
+}
+
+.slick div{
+    height: 300px;
+}
+.slick img{
+    box-shadow: 0 0 20px 0 #000;
+    object-fit: cover;
+    height: 100%;
+    object-position: center;    
+}
+/* ================ Slider End ================ */
+
+.header h2{
+    display: flex;
+    justify-content: center;
+}
+.line3{
+    position: absolute;
+    height: 5px;
+    width:200px;
+    background: #000;
+    top: 110%;
+}
+
+.everest{
+    height: 400px;
+}
+.h-50{
+    height: 50%;
+}
+
+.view-a{
+    transition: 0.5s all ease-in-out;
+    width: 100px;
+}
+.view-a:hover{
+    width: 120px;
+    transition: 0.5s all ease-in-out;
+}
+    /* ====================== Popular End ==================== */
+    .my-icon{
+        padding: 20px;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: 2px dashed #00a1e1;
+        color: #00a1e1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px!important;
+    }
+    .authorised{
+        transition: 0.3s all ease-in-out;
+    }
+.authorised:hover{
+    transform: scale(1.1);
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ============= Book End ================== */
