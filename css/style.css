@@ -13,7 +13,7 @@ ul {
     margin: 0;
 }
 .btn-danger{
-    background: tomato;
+    background: #D35400;
 }
 a {
     text-decoration: none;
@@ -45,8 +45,11 @@ img:hover{
     background: linear-gradient(80deg,#E74C3C,#45B39D);
 }
 .hover:hover{
-    background: #138D75;
+    background: #2471A3;
     transition: 0.3s;
+}
+.position-relative{
+    overflow: hidden;
 }
 /* ===============  Root End  =============== */
 .dropdown-menu a:hover{
@@ -73,8 +76,8 @@ nav ul li:hover,nav ul li a:hover{
     flex-direction: column;
     align-items: center;
 }
-.display-content p{
-    text-shadow: 0 0 5px #000;
+.text-shadow{
+    text-shadow: 5px 2px 5px #000;
 }
 .dropdown:hover .dropdown-toggle{
     transform: translate(120deg);
@@ -99,6 +102,10 @@ nav ul li:hover,nav ul li a:hover{
     object-fit: cover;
     height :100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all ease-in-out;
 }
 
 
@@ -124,6 +131,19 @@ nav ul li:hover,nav ul li a:hover{
     object-fit: cover;
     height: 100%;
     object-position: center;    
+}
+.slick .position-absolute{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    background: rgba(0, 9, 9, 0.2);
+}
+.position-relative:hover img{
+transform: scale(1.1);
 }
 /* ================ Slider End ================ */
 
